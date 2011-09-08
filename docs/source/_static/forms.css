@@ -1,0 +1,195 @@
+/* DEBUT - styles des erreurs */
+.form_wrapper
+{
+  width: 800px;
+  margin: 0 auto;
+}
+.inner_form_wrapper
+{
+  zoom: 1;
+  position: relative;
+}
+.global_error /* Erreurs globales */
+{
+  background-color: #CC9999;
+  border: 1px solid #FF3333;
+}
+.error_list li,
+.global_error a,
+.global_error a:hover,
+.global_error label/* Erreur individuelle et liens des erreurs global description*/
+
+{
+  text-decoration: none;
+  color: #FF3333;
+}
+
+.global_error a:hover
+{
+  color: #FF3333;
+  text-decoration: underline;
+}
+
+.columned_field label,
+.columned_field .legend,
+.columned_field .field_column
+{
+  float: left;
+}
+
+.columned_field label,
+.columned_field .legend
+{
+  width: 150px;
+  margin: 0 5px 0 0;
+  padding: 0;
+}
+
+.columned_field legend
+{
+  display: none;
+}
+
+.columned_field .field_column label
+{
+  float: none;
+  width: auto;
+}
+.columned_field .field_column
+{
+  width: 500px;
+}
+
+.form_error /* Ligne erreur */
+{
+  border: 1px solid #FF3333;
+}
+
+/* FIN - styles des erreurs */
+.form_search
+{
+  padding-bottom:20px;
+}
+.form_search legend
+{
+  display:none;
+}
+
+.form_search .field_column,
+.form_search .actions
+{
+  float:left;
+}
+
+.form_search .field_column
+{
+  width:212px;
+  padding-right:10px;
+}
+
+.form_search .actions
+{
+  width:85px;
+}
+
+.form_search .medium_txt
+{
+  border:1px solid #d8d8d8;
+  width:206px;
+  padding:2px;
+  height:22px;
+  font-size:13px;
+  font-family: "Lucida Sans Unicode","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
+  background:#FFFFFF url(/images/common/backgrounds/medium_txt_bg.gif) repeat-x left top;
+}
+
+.zoom_box .form_search .medium_txt
+{
+  width:162px;
+  
+}
+
+.zoom_box .form_search .field_column
+{
+  width:168px;
+  padding-right:10px;
+}
+
+
+/* DEBUT style formualire selection langue */
+
+.books_filter
+{
+  width:270px;
+}
+
+.books_filter legend
+{
+  position:absolute;
+  visibility:hidden;
+  top:-5000px;
+}
+
+.books_filter .field_column,
+.books_filter .actions
+{
+  float:left;
+}
+
+.books_filter .field_column
+{
+  width:200px;
+  padding-right:6px;
+}
+
+.language_selection
+{
+  width:198px;
+  font-size:11px;
+  color:#636363;
+  font-weight:bold;
+  margin-top:6px;
+}
+
+/* FIN style formualire selection langue */
+
+/* DEBUT style formualire telecharger precedente version */
+
+.previous_stable_download
+{
+  padding:14px 0;
+}
+
+.previous_stable_download label,
+.search label
+{
+  font-size:13px;
+  font-family:"Lucida Sans Unicode","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;;
+  color:#444444;
+  font-weight:bold;
+  padding-bottom:6px;
+  display:block;
+}
+
+.previous_stable_download .field_column,
+.previous_stable_download .actions,
+.search .field_column,
+.search .actions
+{
+  float:left;
+}
+
+.previous_stable_download .field_column,
+.search .field_column
+{
+  padding-top:4px;
+  padding-right:4px;
+}
+
+.version_selection
+{
+  color: #636363;
+  font: bold 11px Arial,Helvetica,sans-serif;
+}
+
+/* FIN style formualire telecharger precedente version */

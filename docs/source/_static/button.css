@@ -1,0 +1,51 @@
+/*
+  Corrige le bug d'affichage de bordure et de
+  décalage du contenu sous IE en mode XP
+*/
+button
+{
+  background-color: transparent;
+  border:0 none;
+  border-collapse:collapse;
+}
+
+/**
+* début des styles commun à tous les boutons
+*/
+.shadow_extensible_button,
+.extensible_button,
+.non_extensible_button
+{
+	-webkit-appearance: button-bevel;
+	float: left;
+	text-align: left;
+	display: block;
+	padding: 0;
+	margin: 0;
+	border: 0px solid #000000;
+	text-decoration: none;
+	cursor: pointer;
+	background-color: transparent;
+	white-space: nowrap;
+}
+.shadow_extensible_button:hover,
+.extensible_button:hover,
+.non_extensible_button:hover
+{
+	text-decoration: none;
+}
+
+button span
+{
+  position: relative;
+}
+
+button span span,
+button span span span
+{
+  position: static;
+}
+
+/**
+* fin des styles commun à tous les boutons
+*/

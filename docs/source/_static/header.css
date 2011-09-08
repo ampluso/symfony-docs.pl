@@ -1,0 +1,33 @@
+.header
+{
+	padding:32px 0 32px 12px;
+}
+
+.illustration_logo_header
+{
+  float:left;
+  width:252px;
+}
+.illustration_logo_header a
+{
+  display:block;
+}
+
+.box_download
+{
+  float:right;
+  width:306px;
+}
+
+.legend_download,
+.download_button_wrapper
+{
+  float:left;
+}
+
+.download_button_wrapper
+{
+  padding-left:10px;
+  width:200px;
+}
+

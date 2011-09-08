@@ -1,0 +1,49 @@
+
+.footer
+{
+  padding-top:20px;
+  background-color: #313131;
+  position: relative;
+}
+.footer .title_02
+{
+  padding-bottom:16px;
+}
+.illustration_logo_footer
+{
+  vertical-align:middle;
+}
+.box_menu_footer
+{
+  padding:10px 0 10px 10px;
+}
+.box_menu_footer .first
+{
+  padding-left:0;
+}
+.menu_footer
+{
+  float:left;
+  width:146px;
+  padding-left:16px;
+}
+.list_menu_footer
+{
+  padding-bottom:18px;
+}
+.menu_footer .list_menu_footer li
+{
+  font-size:11px;
+  padding-bottom:2px;
+}
+.menu_footer .list_menu_footer li a,
+.menu_footer .list_menu_footer li a:hover
+{
+  font-family:"Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+  color:#d1d1d1;
+  text-decoration:none;
+}
+.menu_footer .list_menu_footer li a:hover
+{
+  text-decoration:underline;
+}

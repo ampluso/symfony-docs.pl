@@ -1,0 +1,50 @@
+#content_wrapper
+{
+    background:transparent url(/img/bg_page.jpg) repeat-x 0 0;
+}
+
+.content
+{ 
+  width:968px;
+  margin:0 auto;
+}
+
+.main_content
+{
+}
+
+.box_columns,
+.box_full_columns
+{
+  padding-bottom:56px;
+}
+
+.column_01,
+.column_02,
+.column_03
+{
+  float:left;
+}
+
+.column_01
+{
+	width:242px;
+}
+
+.column_02
+{
+	width:690px;
+  padding-left:34px;
+}
+
+.home .box_columns .column_01
+{
+  width:310px;
+}
+
+.home .box_columns .column_02
+{
+  width:626px;
+  padding-left:24px;
+}
+

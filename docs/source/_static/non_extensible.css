@@ -1,0 +1,105 @@
+/**
+* début des styles pour le bouton non extensible 01
+*/
+.button_01
+{
+	display: -moz-inline-box;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	border: 0;
+	background: none;
+}
+.button_01 span
+{
+	text-decoration: none;
+	display: block;
+	height: 28px;
+	float: left;
+	padding: 0 0 0 7px;
+	background: transparent url(/images/common/buttons/button_01/border_l.png) no-repeat top left;
+}
+.button_01 span span
+{
+	padding: 0 7px 0 0;
+	background: transparent url(/images/common/buttons/button_01/border_r.png) right top no-repeat;
+}
+.button_01 span span span
+{
+	padding: 0px 14px;
+	font: bold 11px Arial, Helvetica, sans-serif;
+	color: #636363;
+	line-height: 28px;    /* Alignement vertical du texte */
+	background: transparent url(/images/common/buttons/button_01/btn_bg.png) repeat-x top left;
+}
+
+.button_01:hover span,
+.button_01_selected span
+{
+	background: transparent url(/images/common/buttons/button_01/border_l_hover.png) no-repeat top left;
+}
+.button_01:hover span span,
+.button_01_selected span span
+{
+	background: transparent url(/images/common/buttons/button_01/border_r_hover.png) right top no-repeat;
+}
+.button_01:hover span span span,
+.button_01_selected span span span
+{
+	color: #FFFFFF;
+  text-shadow:0 1px 1px #6b9311;
+	background: transparent url(/images/common/buttons/button_01/btn_bg_hover.png) repeat-x top left;
+}
+
+/*
+* fin des styles pour le bouton non extensible 01
+**/
+
+/**
+* début des styles pour le bouton download now
+*/
+.download_button
+{
+	display: -moz-inline-box;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	border: 0;
+	background: none;
+  cursor:pointer;
+}
+
+.download_button:hover
+{
+  text-decoration:none;
+}
+
+.download_button span
+{
+	text-decoration: none;
+	display: block;
+	height: 47px;
+	float: left;
+	padding: 0 0 0 8px;
+	background: transparent url(/images/common/buttons/download_now_button/border_l.png) no-repeat top left;
+}
+
+.download_button span span
+{
+	padding: 0 8px 0 0;
+	background: transparent url(/images/common/buttons/download_now_button/border_r.png) right top no-repeat;
+}
+
+.download_button span span span
+{
+	padding: 0px 16px;
+	font: 17px/47px Arial, Helvetica, sans-serif;
+  text-shadow:1px 1px 1px #415a08;
+  text-decoration:none;
+	color: #FFFFFF;
+	background: transparent url(/images/common/buttons/download_now_button/btn_bg.png) repeat-x top left;
+}
+
+/*
+* fin des styles pour le bouton download now
+**/
