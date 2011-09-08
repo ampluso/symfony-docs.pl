@@ -1,3 +1,4 @@
 [submodule "symfony-docs-pl"]
 	path = symfony-docs-pl
 	url = git://github.com/ampluso/symfony-docs-pl.git
+

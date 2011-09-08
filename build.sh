@@ -1,6 +1,6 @@
 #!/bin/sh
 
-git submodule update
+git submodule update --init --recursive
 
 cd docs
 cp -R ../symfony-docs-pl/* source/
