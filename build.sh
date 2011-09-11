@@ -1,6 +1,6 @@
 #!/bin/sh
 
-git submodule update
+#git submodule update
 
 cd docs
 mkdir -p source
