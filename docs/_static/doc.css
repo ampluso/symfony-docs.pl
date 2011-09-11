@@ -545,3 +545,11 @@ div.jsactive pre
 {
     background-color: #232125;
 }
+
+
+.doc_footer {
+    border-top: solid 1px #E5E5E5;
+    background-color: #F5F5F5;
+    padding: 10px;
+    font-size: 12px;
+}
