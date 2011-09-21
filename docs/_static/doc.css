@@ -326,13 +326,13 @@ a.reference em, a.internal em
     font-style: normal;
 }
 
-#book ul ul, #wklad-w-rozwoj ul ul
+#podrecznik ul ul, #wklad-w-rozwoj ul ul
 {
   display: inline;
   padding: 5px 0 0 0;
 }
 
-#book ul ul li, #wklad-w-rozwoj ul ul li
+#podrecznik ul ul li, #wklad-w-rozwoj ul ul li
 {
   display: inline;
   margin: 0;
@@ -529,9 +529,9 @@ div.jsactive pre
 
 /** Pages (use the page IDs) **/
 
-#book > ul.simple > li,
+#podrecznik > ul.simple > li,
 #cookbook > ul.simple > li,
-#glossary > ul.simple > li,
+#indeks > ul.simple > li,
 #wklad-w-rozwoj > ul.simple > li
 {
   line-height: 20px;
