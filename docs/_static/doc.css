@@ -326,13 +326,13 @@ a.reference em, a.internal em
     font-style: normal;
 }
 
-#book ul ul, #contributing ul ul
+#book ul ul, #wklad-w-rozwoj ul ul
 {
   display: inline;
   padding: 5px 0 0 0;
 }
 
-#book ul ul li, #contributing ul ul li
+#book ul ul li, #wklad-w-rozwoj ul ul li
 {
   display: inline;
   margin: 0;
